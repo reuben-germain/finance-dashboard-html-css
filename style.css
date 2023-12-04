@@ -28,6 +28,11 @@ body{
     background: rgba(113, 99, 186, 255);
 }
 
+.sidebar:hover{
+    width: 240px;
+    transition: 0.5s;
+}
+
 .logo{
     height: 80px;
     padding: 16px;
