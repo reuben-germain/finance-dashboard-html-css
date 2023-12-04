@@ -135,3 +135,7 @@ border-radius: 50%;
     cursor: pointer;
     transition: all 0.5s ease-out;
 }
+
+.search--box i:hover{
+    transform: scale(1.1);
+}
