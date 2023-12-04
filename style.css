@@ -50,3 +50,11 @@ body{
 .menu li:hover, .active{
     background: #e0e0e058;
 }
+
+.menu a{
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
