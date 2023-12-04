@@ -87,3 +87,16 @@ background: #ebe9e9;
 width: 100%;
 padding: 1rem;
 }
+
+.header--wrapper img{
+width: 50px;
+height: 50px;
+cursor: pointer;
+border-radius: 50%;
+}
+
+.header--wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
