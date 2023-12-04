@@ -32,3 +32,10 @@ body{
     height: 80px;
     padding: 16px;
 }
+
+.menu{
+    height: 88%;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
