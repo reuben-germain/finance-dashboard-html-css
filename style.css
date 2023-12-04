@@ -79,3 +79,11 @@ body{
     left: 0;
     width: 100%;
 }
+
+/* **** main body section **** */
+.main--content{
+position: relative;
+background: #ebe9e9;
+width: 100%;
+padding: 1rem;
+}
