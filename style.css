@@ -121,7 +121,7 @@ border-radius: 50%;
     color: rgba(113, 99, 186, 255);
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
     padding: 4px 12px;
 }
 
@@ -137,5 +137,5 @@ border-radius: 50%;
 }
 
 .search--box i:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
