@@ -105,3 +105,12 @@ border-radius: 50%;
     padding: 10px 2rem;
     margin-bottom: 1rem;
 }
+.header--title{
+    color: rgba(113, 99, 186, 255);
+}
+
+.user--info{
+    display: flex;
+    align-items: center;
+    gap: 1;
+}
