@@ -46,3 +46,7 @@ body{
     border-radius: 8px;
     transition: all 0.5s ease-in-out;
 }
+
+.menu li:hover{
+    background: #e0e0e058;
+}
