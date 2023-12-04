@@ -27,3 +27,8 @@ body{
     transition: all 0.5s linear;
     background: rgba(113, 99, 186, 255);
 }
+
+.logo{
+    height: 80px;
+    padding: 16px;
+}
