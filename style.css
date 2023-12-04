@@ -67,3 +67,8 @@ body{
 .menu a i{
     font-size: 1.2rem;
 }
+
+.logout{
+    position: absolute;
+    bottom: 0;
+}
