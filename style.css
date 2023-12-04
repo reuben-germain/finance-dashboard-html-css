@@ -112,7 +112,7 @@ border-radius: 50%;
 .user--info{
     display: flex;
     align-items: center;
-    gap: 1;
+    gap: 1rem;
 }
 
 .search--box{
