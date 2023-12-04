@@ -57,5 +57,13 @@ body{
     text-decoration: none;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 1.5rem;
+}
+
+.menu a span{
+    overflow: hidden;
+}
+
+.menu a i{
+    font-size: 1.2rem;
 }
