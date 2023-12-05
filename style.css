@@ -183,3 +183,8 @@ body {
     align-items: center;
     margin-bottom: 20px;
 }
+
+.amount{
+    display: flex;
+    flex-direction: column;
+}
