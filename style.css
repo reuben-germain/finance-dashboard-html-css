@@ -217,3 +217,33 @@ body {
     letter-spacing: 2px;
     font-family: "Courier New", Courier, monospace;
 }
+
+/* color css */
+.light--red{
+    background: rgb(251, 233, 233);
+}
+
+.light--purple{
+    background: rgb(254, 226, 254);
+}
+
+.light--green{
+    background: rgb(235, 254, 235);
+}
+
+.light--blue{
+    background: rgb(236, 236, 254);
+}
+
+.dark--red{
+    background: red;
+}
+.dark--purple{
+    background: purple;
+}
+.dark--green{
+    background: green;
+}
+.dark--blue{
+    background: blue;
+}
