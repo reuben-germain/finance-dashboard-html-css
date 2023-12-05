@@ -210,3 +210,10 @@ body {
     font-size: 1.5rem;
     background: red;
 }
+
+.card--detail{
+    font-size: 18px;
+    color: #777777;
+    letter-spacing: 2px;
+    font-family: "Courier New", Courier, monospace;
+}
