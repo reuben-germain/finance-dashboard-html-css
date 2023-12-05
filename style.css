@@ -172,3 +172,7 @@ body {
     justify-content: space-between;
     transition: all 0.5s- ease-in-out;
 }
+
+.payment--card:hover{
+    transform: translateY(-5px);
+}
