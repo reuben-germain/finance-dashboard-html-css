@@ -247,3 +247,11 @@ body {
 .dark--blue{
     background: blue;
 }
+
+/* ***** tabular ***** section */
+.tabular--wrapper{
+background: #fff;
+margin-top: 1rem;
+border-radius: 10px;
+padding: 2rem;
+}
