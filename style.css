@@ -311,12 +311,48 @@ tfoot td {
     cursor: pointer;
 }
 
+/* Hamburger Icon Styles */
+.hamburger {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1000;
+    display: none; /* Initially hidden for larger screens */
+}
+
+/* Sidebar Styles */
+.sidebar {
+    /* ... (unchanged styles for the sidebar) ... */
+    width: 0;
+    overflow: hidden;
+    transition: width 0.5s ease;
+}
+
+.sidebar.open {
+    width: 260px;
+}
+
 /* Responsive Styles using Media Queries */
 @media only screen and (max-width: 768px) {
     /* Adjust styles for small devices */
+    .hamburger {
+        display: block;
+    }
+
     .sidebar {
         width: 100%;
         transition: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+    }
+
+    .sidebar.open {
+        width: 100%;
     }
 
     .main--content {
