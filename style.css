@@ -274,3 +274,33 @@ th{
     padding: 15px;
     text-align: left;
 }
+
+tbody{
+    background: #f2f2f2;
+}
+
+td{
+padding: 15px;
+font-size: 14px;
+color: #333;
+}
+
+tr:nth-child(even){
+    background: #fff;
+}
+
+tfoot{
+    background: rgba(113, 99, 186, 255);
+    font-weight: bold;
+    color: #fff;
+}
+
+tfoot td{
+    padding: 15px;
+}
+
+.table--container button{
+    color: green;
+    background: none;
+    cursor: pointer;
+}
