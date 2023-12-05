@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     border: none;
-    outline: none;
+    outline-color: transparent;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
