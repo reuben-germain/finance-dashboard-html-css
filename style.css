@@ -188,3 +188,8 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.title{
+    font-size: 12px;
+    font-weight: 200;
+}
