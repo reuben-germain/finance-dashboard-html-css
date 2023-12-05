@@ -1,6 +1,7 @@
 /* Import Google Font cdn link */
 @import url("https:/fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
+/* Common Styles */
 * {
     margin: 0;
     padding: 0;
@@ -14,6 +15,7 @@ body {
     display: flex;
 }
 
+/* Sidebar Styles */
 .sidebar {
     position: sticky;
     top: 0;
@@ -81,7 +83,7 @@ body {
     width: 100%;
 }
 
-/* **** main body section **** */
+/* Main Content Styles */
 .main--content {
     position: relative;
     background: #ebe9e9;
@@ -142,7 +144,7 @@ body {
     transform: scale(1.2);
 }
 
-/* ***** card container ***** */
+/* Card Container Styles */
 .card--container {
     background: #fff;
     padding: 2rem;
@@ -218,7 +220,7 @@ body {
     font-family: "Courier New", Courier, monospace;
 }
 
-/* color css */
+/* Color CSS */
 .light--red {
     background: rgb(251, 233, 233);
 }
@@ -251,7 +253,7 @@ body {
     background: blue;
 }
 
-/* ***** tabular ***** section */
+/* Tabular Section Styles */
 .tabular--wrapper {
     background: #fff;
     margin-top: 1rem;
@@ -307,4 +309,40 @@ tfoot td {
     color: green;
     background: none;
     cursor: pointer;
+}
+
+/* Responsive Styles using Media Queries */
+@media only screen and (max-width: 768px) {
+    /* Adjust styles for small devices */
+    .sidebar {
+        width: 100%;
+        transition: none;
+    }
+
+    .main--content {
+        padding: 1rem;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Adjust styles for medium devices */
+    .sidebar {
+        width: 100%;
+        transition: none;
+    }
+
+    .main--content {
+        padding: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    /* Adjust styles for large devices */
+    .sidebar {
+        width: 260px;
+    }
+
+    .main--content {
+        padding: 1rem;
+    }
 }
