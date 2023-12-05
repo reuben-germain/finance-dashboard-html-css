@@ -193,3 +193,7 @@ body {
     font-size: 12px;
     font-weight: 200;
 }
+
+.amount--value{
+    font-size: 24px;
+}
