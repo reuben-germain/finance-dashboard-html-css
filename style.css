@@ -269,3 +269,8 @@ thead{
     background: rgba(113, 99, 186, 255);
     color: #fff;
 }
+
+th{
+    padding: 15px;
+    text-align: left;
+}
