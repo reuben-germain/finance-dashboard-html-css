@@ -259,3 +259,13 @@ padding: 2rem;
 .table--container{
     width: 100%;
 }
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead{
+    background: rgba(113, 99, 186, 255);
+    color: #fff;
+}
