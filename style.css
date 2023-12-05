@@ -176,3 +176,10 @@ body {
 .payment--card:hover{
     transform: translateY(-5px);
 }
+
+.card--header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
